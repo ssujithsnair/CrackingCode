@@ -10,6 +10,7 @@ namespace CrackingCode
     {
         static void Main(string[] args)
         {
+            Mystring.permutation("abcd");
         }
     }
 }
