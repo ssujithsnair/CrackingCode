@@ -8,6 +8,26 @@ namespace CrackingCode
 {
     static class Mystring
     {
+        public static bool IsStringUnique(string str)
+        {
+            // commented code is using bit check - assuming only lower case letters a-z is used
+            //int checker = 0;
+            if (str.Length > 128) 
+                return false;
+            bool[] hashMap = new bool[128];
+            foreach (var c in str)
+            {
+                //int val = c - 'a';
+                //if ((checker & (1 << val)) > 0)
+                //    return false;
+                //checker |= 1 << val;
+                if (hashMap[c])
+                    return false;
+                hashMap[c] = true;
+            }
+            return true;
+        }
+
         public static void permutation(string str)
         {
             permutation(str, "");

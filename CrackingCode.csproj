@@ -41,9 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BMTest.cs" />
+    <Compile Include="Graph.cs" />
+    <Compile Include="Misc.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="String\MyString.cs" />
+    <Compile Include="MyString.cs" />
+    <Compile Include="Sort.cs" />
+    <Compile Include="TopologicalSort.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
