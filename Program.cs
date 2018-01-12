@@ -22,6 +22,7 @@ namespace CrackingCode
         static void Main(string[] args)
         {
             TestS t;
+            Mystring.Test();
             //Mystring.permutation("abcd");
             //var unique = Mystring.IsStringUnique("ASDFdpqrsujk");
             int[] arr = new[] { 5, 3, 1, 2, 3 };
@@ -29,7 +30,7 @@ namespace CrackingCode
             //Sort.SortPeakValley(arr);
             //Graph.Test();
             //BMTest.Test1();
-            TopologicalSort.TopologicalSort.Test();
+            //TopologicalSort.TopologicalSort.Test();
         }
     }
 }

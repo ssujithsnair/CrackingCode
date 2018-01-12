@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="BMTest.cs" />
     <Compile Include="Graph.cs" />
+    <Compile Include="MineSweeper.cs" />
     <Compile Include="Misc.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
